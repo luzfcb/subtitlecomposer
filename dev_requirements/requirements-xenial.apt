@@ -74,5 +74,16 @@ libsphinxbase3
 libxine2-dev
 
 #phonon4qt5-backend-gstreamer
+libglib2.0-dev
+libpcre3-dev
+libpcre32-3
+libpcrecpp0v5
 
+
+libgstreamer1.0-dev
+
+
+libgstreamermm-1.0-dev
+libgstreamer-plugins-base1.0-dev
+libgstreamer-plugins-good1.0-dev
 
