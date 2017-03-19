@@ -46,7 +46,7 @@ add_subdirectory(main)
 
 add_subdirectory(videoplayerplugins)
 
-add_subdirectory(speechplugins)
+#add_subdirectory(speechplugins)
 
 # do the configuration of config.h at the end, so all the necessary variables have been set
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/config.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config.h)

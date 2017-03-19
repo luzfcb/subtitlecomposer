@@ -154,8 +154,8 @@ WaveformWidget::onConfigChanged()
 	m_subTextColor = QPen(QColor(SCConfig::wfSubTextColor()), 0, Qt::SolidLine);
 
 	// FIXME: instead of using devicePixelRatioF() for pen width we should draw waveform in higher resolution
-	m_waveInner = QPen(QColor(SCConfig::wfInnerColor()), devicePixelRatioF(), Qt::SolidLine);
-	m_waveOuter = QPen(QColor(SCConfig::wfOuterColor()), devicePixelRatioF(), Qt::SolidLine);
+	m_waveInner = QPen(QColor(SCConfig::wfInnerColor()), Qt::SolidLine);
+	m_waveOuter = QPen(QColor(SCConfig::wfOuterColor()), Qt::SolidLine);
 
 	m_subtitleBack = QColor(SCConfig::wfSubBackground());
 	m_subtitleBorder = QColor(SCConfig::wfSubBorder());
